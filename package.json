@@ -1,35 +1,42 @@
 {
-  "name": "hw-4-1",
+  "name": "hw-4-2",
   "version": "1.0.0",
-  "description": "",
-  "main": "./src/index.html",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/1q5pvt7c4trkbggj?svg=true)](https://ci.appveyor.com/project/aleks903/ajs7-hw-4-2)",
+  "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist",
     "lint": "eslint .",
     "start": "webpack-dev-server --mode development"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleks903/ajs7-hw-4-2.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleks903/ajs7-hw-4-2/issues"
+  },
+  "homepage": "https://github.com/aleks903/ajs7-hw-4-2#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.9.0",
-    "@typescript-eslint/parser": "^2.9.0",
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@typescript-eslint/eslint-plugin": "^2.10.0",
+    "@typescript-eslint/parser": "^2.10.0",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.19.1",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
-    "typescript": "^3.7.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "@babel/cli": "^7.7.4",
-    "@babel/core": "^7.7.4",
-    "@babel/preset-env": "^7.7.4",
-    "babel-jest": "^24.9.0",
-    "core-js": "^3.4.5"
+    "core-js": "^3.4.8"
   }
 }
